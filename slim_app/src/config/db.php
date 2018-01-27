@@ -1,10 +1,10 @@
 <?php 
     class db {
         //Properties 
-        private $dbhost = 'localhost';
-        private $dbuser = 'admin';
-        private $dbpass = '4f40zl70laA0bmaH';
-        private $dbname = 'inventory_app';
+        private $dbhost = '';
+        private $dbuser = '';
+        private $dbpass = '';
+        private $dbname = '';
 
         //Connect 
         public function connect() {
